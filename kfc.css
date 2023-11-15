@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,800;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+/* navbar */
+.nav {
+    height: 90px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.imgkfc {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+
+.right_nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 5px;
+    height: 70px;
+}
+
+.slider {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    gap: 7px;
+    padding: 10px 0;
+    flex-direction: column;
+}
+
+.threeslider1 {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border: none;
+
+}
+
+.threeslider2 {
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    border: none;
+
+}
+
+.threeslider3 {
+    border: none;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+
+}
+
+.left_nav {
+    height: 70px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.rightbtn {
+    width: 150px;
+    height: 40px;
+    background-color: #1c1816;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.para {
+    width: 100%px;
+    height: 100%;
+}
+
+#rb {
+    border: 3px solid #ea002a;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.rightbtn:hover {
+    border: 2px #ea002a solid;
+    border-radius: 4px;
+}
+
+.loginbtn {
+    width: 100px;
+    height: 35px;
+    background-color: #ea002a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Navbar */
+
+/* banner */
+.banner {
+    width: 100%;
+    height: 550px;
+}
+
+.picture img {
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.picture {
+    width: 100%;
+    height: 500px;
+}
+
+/* banner */
+
+/* Reorder button  */
+.reorder {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    text-align: center;
+}
+
+.reorder_btn {
+    width: 400px;
+    height: 42px;
+    color: white;
+    background-color: #ea002a;
+    border: none;
+    border-radius: 8px;
+    font-size: medium;
+    word-spacing: 2em;
+}
+
+.reorder_btn:hover {
+    background-color: #d40b30;
+    cursor: pointer;
+    height: 46px;
+    width: 420px;
+}
+
+/* Reorder button  */
+
+/* Menu Panel */
+
+.menu_panel {
+    width: 100%;
+    height: 420px;
+    background-color: #000;
+}
+
+h1 {
+    color: white;
+    display: inline;
+    margin-left: 60px;
+}
+
+.itemul {
+    height: 3px;
+    background-color: #ea002a;
+    width: 100px;
+    margin-left: 60px;
+}
+
+.order_card {
+    height: 340px;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    margin-top: 20px;
+    /* gap: 8px; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.orders {
+    padding: 20 10 20 30;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(43, 42, 42);
+    border-radius: 500px 500px 30px 500px;
+    text-align: center;
+}
+
+.orders:hover {
+    cursor: pointer;
+    transform: translate(0, -20px);
+    transition: .3s ease-in-out;
+}
+
+.orderimg {
+    width: 260px;
+    height: 180px;
+    position: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    color: white;
+    margin-left: 16px;
+}
+
+hr {
+    color: #ea002a;
+    size: 20px;
+}
+
+/* Menu Panel */
+/* Top Deals */
+.topdeals {
+    width: 100%;
+    height: 550px;
+    background-color: #000;
+    /* align-items: center; */
+}
+
+.dealboxcard {
+    width: 90%;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 5%;
+    flex-wrap: wrap;
+}
+
+.dealbox {
+    height: 450px;
+    width: 310px;
+    border-radius: 6PX;
+    background-color: #1c1816;
+    /* justify-content: space-evenly*/
+    align-items: center;
+}
+
+.spans {
+    width: 310px;
+    /* height: 50px; */
+    align-items: center;
+    /* border-radius: 6px; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.spanbox {
+    width: 15px;
+    height: 22px;
+    background-color: #d40b30;
+    /* border-radius: 0 0px 6px 6px; */
+}
+
+.dealsimg {
+    height: 50px;
+    width: 310px;
+}
+
+.dealimg img {
+    width: 300px;
+    height: 240px;
+}
+
+/* Top Deals */
+
+/* order */
+.order {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.96);
+    align-items: center;
+}
+
+.for_box {
+    height: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.rd {
+    height: 30px;
+    width: 30px;
+    background-color: red;
+}
+
+.container {
+    background-color: #1c1816;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.container_4 {
+    background-color: #1c1816bd;
+    align-items: center;
+    text-align: center;
+    height: 260px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.order button {
+    width: 150px;
+    height: 25px;
+    background-color: rgb(216, 40, 21);
+    color: white;
+    border: none;
+    margin-top: 1px;
+    border-radius: 6px;
+}
+
+/* order */
+/* order */
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: 450px;
+    background-color: #1c1816;
+}
+.icon{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    gap: 30px;
+}
+.sapnor{
+    width: 70px;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 100px;
+}
+.footer .icon .imgor {
+    padding: 0 0 0 30px;
+    gap: 30px;
+}
+
+/* Footer */
